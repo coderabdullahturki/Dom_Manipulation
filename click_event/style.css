@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.clicked {
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: teal;
+    color: white;
+}
