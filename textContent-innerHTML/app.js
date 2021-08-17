@@ -10,7 +10,7 @@ const randomVar = 'Any value';
 
 const ul = document.createElement('ul');
 
-ul.innerHTML = `<li class="item">${randomVar}</item>
+ul.innerHTML = `<li class="item">${randomVar}</li>
                 <li>list item</li>
                 <li>list item</li>`;
 
