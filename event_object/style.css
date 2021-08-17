@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: red;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.clicked {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.6s linear;
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: green;
+    color: white;
+}
+
+#link {
+    display: block;
+    margin-top: 95vh;
+    font-size: 3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .blue {
+    background-color: blue;
+}
+.orange {
+    background-color: orange;
+}
+.teal {
+    background-color: teal;
+} */
