@@ -14,6 +14,7 @@ button {
 }
 
 .clicked {
+    transition: all 0.6s linear;
     font-size: 3rem;
     font-weight: 700;
     background-color: teal;
